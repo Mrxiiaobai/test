@@ -1,0 +1,84 @@
+	.content{
+ 		background: #f7f7f7;
+ 	}
+ 	.header{
+ 		height:40px;
+ 		background: #f9f9f9;	
+ 		line-height: 40px;
+ 	}
+ 	.hl ul{
+ 		padding-left: 350px;
+ 	}
+ 	.hl ul li{
+ 		float:left;
+ 		margin-right:10px;
+ 	}
+ 	.hl ul li a{
+ 		color:orange;
+ 	}
+ 	.hl ul li a:hover{
+ 		text-decoration: none;
+ 	}
+ 	.hr ul{
+ 		padding-right: 350px;
+ 	}
+ 	.hr ul li{
+ 		float:right;
+ 		margin-right: 5px;
+ 	}
+ 	.hr ul li a:hover{
+ 		text-decoration: none;
+ 	}
+ 	.main{
+ 		height: 100px;
+ 		border-bottom:1px solid #ccc;
+ 		background: white;
+ 	}
+ 	 .main img{
+ 		float:left;
+ 		padding-left:350px;
+ 		padding-top: 15px;
+ 	}
+ 	.mr ul{
+ 		padding-right: 350px;
+ 		padding-top: 25px;
+ 	}
+ 	.mr ul li{
+ 		display:block;
+ 		width:130px;
+ 		height:50px;
+ 		float:right;
+ 		font-size: 25px;
+ 		text-align:center;
+ 		position: relative;
+ 	}
+ 	.mr ul li a{
+		display:block;
+ 		line-height: 50px;
+ 	}
+ 	.mr ul li a:hover{
+ 		background: orange;
+ 		display: block;
+ 		width: 130px;
+ 		height: 50px;
+ 		border-radius: 15px;
+ 		text-decoration: none;
+ 	}
+ 	.bottom{
+	 	width: 100%;
+	 	text-align: center;
+	 }
+ 	.bottom>ul{
+ 		display: inline-block;
+ 	}
+ 	.bottom>ul>li{float: left;margin-right: 65px;}
+ 	.bottom>ul>li>a:hover{color: orange;text-decoration: none;}
+.bigImageDiv{
+   			width:50%;
+   			height:50%;
+   			margin:auto;
+   		}
+   		.bigImage{
+   			width:100%;
+   			height:100%;
+   		}

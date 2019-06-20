@@ -1,0 +1,282 @@
+.content{
+ 		background: #f7f7f7;
+ 	}
+ 	.header{
+ 		height:40px;
+ 		background: #f9f9f9;	
+ 		line-height: 40px;
+ 	}
+ 	.hl ul{
+ 		padding-left: 350px;
+ 	}
+ 	.hl ul li{
+ 		float:left;
+ 		margin-right:10px;
+ 	}
+ 	.hl ul li a{
+ 		color:orange;
+ 	}
+ 	.hl ul li a:hover{
+ 		text-decoration: none;
+ 	}
+ 	.hr ul{
+ 		padding-right: 150px;
+ 	}
+ 	.hr ul li{
+ 		float:right;
+ 		margin-right: 5px;
+ 	}
+ 	.hr ul li a:hover{
+ 		text-decoration: none;
+ 	}
+ 	.main{
+ 		height: 100px;border-bottom:1px solid #ccc;
+ 		background: white;
+ 	}
+ 	.main img{
+ 		float:left;
+ 		padding-left:350px;
+ 		padding-top: 15px;
+ 	}
+ 	.mr ul{
+ 		
+ 		padding-right: 350px;
+ 		padding-top: 25px;
+ 	}
+ 	.mr ul li{
+ 		display:block;
+ 		width:130px;
+ 		height:50px;
+ 		float:right;
+ 		font-size: 25px;
+ 		text-align:center;
+ 		position: relative;
+ 	}
+ 	.mr ul li a{
+		display:block;
+ 		line-height: 50px;
+ 	}
+ 	.mr ul li a:hover{
+ 		background: orange;
+ 		display: block;
+ 		width: 130px;
+ 		height: 50px;
+ 		border-radius: 15px;
+ 		text-decoration: none;
+ 	}
+ 	.itw{
+ 		width: 100%;
+ 		height: 480px;
+ 		overflow: hidden;
+ 		position: relative;
+ 	}
+ 	.itw ul{
+ 		width: 10000px;
+ 		height: 480px;
+ 		position: absolute;
+ 	}
+ 	.itw ul li{	
+		display: none;
+ 	}
+ 	.itw img{
+ 		max-width:100%;
+ 		height: 480px;
+ 	}
+ 	.itw span{
+ 		position: absolute;
+ 	}
+ 	.itwimg{
+ 		width: 100%; 
+ 		background: white;
+ 	}
+ 	.bottom{width: 100%;text-align: center;}
+ 	.bottom>ul{
+ 		display: inline-block;
+ 	}
+ 	.bottom>ul>li{float: left;margin-right: 65px;}
+ 	.bottom>ul>li>a:hover{color: orange;text-decoration: none;}
+ 	.itw ol{
+ 		position: absolute;
+ 		width: 432px;
+ 		left: 50%;
+ 		margin-left: -216px;
+ 		line-height: 6px;
+ 		bottom: 20px;
+ 	}
+ 	.itw ol li{
+ 		display:inline-block;
+		float: left;
+	    width: 50px;
+	    height: 4px;
+	    background-color: rgba(255,255,255,.6);
+	    border: 1px solid #ccc;
+	    margin:0 10px;
+	    cursor: pointer;
+ 	}
+ 	.itw ol li:first-child{
+ 		/*margin-left: 50%;*/
+ 	}
+ 	.itw ol .mov{
+ 		background: white;
+ 	}
+ 	#arr {
+      display: block;
+    }
+
+    #arr span {
+      width: 44px;
+      height: 86px;
+      position: absolute;
+      left:100px;
+      top: 50%;
+      margin-top: -43px;
+      background: #000;
+      cursor: pointer;
+      line-height:86px;
+      text-align: center;
+      font-weight: bold;
+      font-family: 'ºÚÌå';
+      font-size: 30px;
+      color: #fff;
+      opacity: 0.3;
+      border: 1px solid #fff;
+    }
+
+    #arr #right {
+	    right:100px;
+	    left: auto;
+    }
+    #arr span:hover{
+    	background: #666;
+    }
+    .itw ul .dis{
+    	display: block;
+    }
+    .wrapper{
+    	margin-top: 50px;
+    	width: 100%;
+    	background: white;
+    }
+    .wrapper-header{
+    	width:80%;
+    	margin: auto;
+    	text-align: center;
+    	padding: 90px 0 60px;
+    }
+    .wrapper-header h2{
+    	font-size: 42px;
+    	text-align: center;
+    }
+    .wrapper-body{
+		width: 1460px;
+		margin:auto;
+    }
+    .line{
+    	display: inline-block;
+    	width: 57px;
+    	height: 1px;
+    	background-color: #d8d8d8;
+    	vertical-align: middle;
+    	margin:0 26px;
+    }
+    .fl{
+    	float: left;
+    	width: 350px;
+    	height:1000px;
+    	margin-left: 20px; 
+    	
+    }
+    .company{
+    	display: block;
+    	background: white;
+    	width: 100%;
+    	height: 480px;
+    	margin-bottom: 20px;
+    	transition: transform 0.5s ease;
+    	cursor: pointer;
+    }
+    .company:hover{
+    	transform: scale(1.01,1.01);box-shadow: 0 10px 20px #ccc;cursor: pointer;
+    }
+    .fl:first-child{
+    	margin-left: 0;
+    }
+    .companydiv{
+    	width: 350px;
+    	height: 240px;
+    	position: relative;
+    }
+    .companyimg{
+    	width: 350px;
+    	height: 240px;
+    }
+    .companyimg img{
+    	width: 100%;
+    	height: 100%;
+    }
+    .companylogo{
+    	width: 111px;
+    	height: 111px;
+    	border-radius: 50%;
+    	position: absolute;
+    	left: 50%;
+    	margin-left: -55px;
+    	bottom: 0;
+    	margin-bottom: -55px;
+    	background: white;
+    }
+    .companylogo img{
+    	position: absolute;
+    	left: 50%;
+    	width: 78px;
+    	height: 78px;
+    	margin-left: -39px;
+    	bottom: 17px;
+    }
+    .companybottom {
+    	width: 350px;
+    	height: 240px;
+    	padding-top: 70px;
+		text-align: center;
+    }
+    .companybottom p{
+    	font-size: 18px;
+    	text-overflow:ellipsis;
+    	white-space:nowrap;
+    }
+    .companybottom ul{
+    	text-align: center;
+    	display: block;
+    	font-size: 14px;
+    	color: #999;
+    	/*padding:0 18px;*/
+    	margin-top: 10px;
+    }
+    .companybottom>ul>li{
+    	display: inline-block;
+    }
+    .companybottom>ul>li:first-child{
+    	margin-right: 8px;
+    }
+    .companybottom>ul li:after{
+		content: " ";
+	    display: block;
+	    height: 0;
+	    overflow: hidden;
+	    visibility: hidden;
+	    clear: both;
+	    zoom: 1;
+    }
+    .companybottom .phone{
+    	display: inline-block;
+    	margin-top: 30px;
+    	width:260px;
+    	font-size: 18px;
+    	color: #333;
+    	height: 34px;
+    	line-height: 34px;
+    	border: 1px solid #d8d8d8;
+    }
+    .companybottom ul li>span{
+		color: #ff5a00;
+    }

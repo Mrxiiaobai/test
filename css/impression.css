@@ -1,0 +1,248 @@
+.header{
+ 		height:40px;
+ 		background: #f9f9f9;	
+ 		line-height: 40px;
+ 	}
+ 	.hl ul{
+ 		padding-left: 350px;
+ 	}
+ 	.hl ul li{
+ 		float:left;
+ 		margin-right:10px;
+ 	}
+ 	.hl ul li a{
+ 		color:orange;
+ 	}
+ 	.hl ul li a:hover{
+ 		text-decoration: none;
+ 	}
+ 	.hr ul{
+ 		padding-right: 350px;
+ 	}
+ 	.hr ul li{
+ 		float:right;
+ 		margin-right: 5px;
+ 	}
+ 	.hr ul li a:hover{
+ 		text-decoration: none;
+ 	}
+ 	.main{
+ 		background: white;
+ 		width: 100%;
+ 		height: 100px;
+ 		z-index: 200;
+ 		border-bottom:1px solid #ccc;
+ 	}
+ 	.fixed {
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+ 	.main img{
+ 		float:left;
+ 		padding-left:350px;
+ 		padding-top: 15px;
+ 	}
+ 	.mr ul{
+ 		padding-right: 350px;
+ 		padding-top: 25px;
+ 	}
+ 	.mr ul li{
+ 		display:block;
+ 		width:130px;
+ 		height:50px;
+ 		float:right;
+ 		font-size: 25px;
+ 		text-align:center;
+ 		position: relative;
+ 	}
+ 	.mr ul li a{
+		display:block;
+ 		line-height: 50px;
+ 	}
+ 	.mr ul li a:hover{
+ 		background: orange;
+ 		display: block;
+ 		width: 130px;
+ 		height: 50px;
+ 		border-radius: 15px;
+ 		text-decoration: none;
+ 	}
+ 	.container{
+ 		width: 1220px;
+		height: auto;
+		margin: auto;
+ 	}
+
+ 	.conhead{
+
+ 	}
+ 	.fl{
+ 		float: left;
+ 		width: 600px;
+ 		overflow: hidden;
+ 	}
+ 	.fr{
+ 		float: right;
+ 		width: 600px;
+ 		overflow: hidden;
+ 	}
+ 	.conhead:after{
+ 		content: '';
+ 		display: block;
+ 		clear: both;
+ 		height: 0;
+ 		visibility: hidden;
+ 	}
+ 	.selecttype{
+ 		position: relative;
+ 		margin-top: 10px;
+ 		border:1px solid #eaeaea;
+ 	}
+ 	.space{
+ 		height: 40px;
+ 		position: relative;
+ 		width: 100%;
+ 		/*float: left;*/
+ 		border-top: 1px dotted #eaeaea;
+ 		overflow: hidden;
+ 	}
+ 	.space dd,.space dt{
+ 		line-height: 40px;
+ 	}
+ 	.space dd,.space dt{
+ 		font-family: "Microsoft YaHei",Î¢ÈíÑÅºÚ,\9ed1\4f53,\5b8b\4f53,"Microsoft JhengHei",»ªÎÄÏ¸ºÚ,STHeiti,MingLiu;
+ 		font-size: 12px;
+    	cursor: pointer;
+ 		float: left;
+ 		width: 77px;
+ 		text-align: center;
+ 	}
+ 	.space dt{
+ 		font-weight: bold;
+ 		border-right: 1px solid #eaeaea;
+ 		background: #f8f8f8;
+ 	}
+ 	.space a:hover{
+		color: red;
+		text-decoration: none;
+ 	}
+ 	.recommed{
+ 		height: 40px;
+ 		position: relative;
+	    width: 100%;
+	    margin-top: 20px;
+	    border: 1px solid #eaeaea;
+	    overflow: hidden;
+ 	}
+ 	.bag a:hover{
+ 		color: green;
+ 	}
+ 	.mostnew{
+ 		height: 40px;
+ 		position: relative;
+	    width: 100%;
+	    margin-top: 20px;
+	    border: 1px solid #eaeaea;
+	    overflow: hidden;
+	    background: #f8f8f8;
+ 	}
+ 	.mostnew>dl>dt:first-child{
+ 		color: green;
+ 	}
+ 	.mostnew>dl>dt:nth-child(2){
+ 		font-weight: normal;
+ 	}
+ 	.impressImg{
+ 		width: 100%;
+ 		margin-top: 20px;
+ 	}
+ 	.impressImg:after{
+ 		content: '';
+ 		display: block;
+ 		clear: both;
+ 		height: 0;
+ 		visibility: hidden;
+ 	}
+ 	.impreLeft,.impreCenter,.impreRl{
+ 		float: left;
+ 		width: 290px;
+ 		margin-right:20px; 
+ 	}
+ 	.impreRr{
+ 		float: left;
+ 		width: 290px;
+ 	}
+ 	.item{
+ 		margin-top: 20px;
+ 		/*overflow: hidden;*/
+ 	}
+ 	.item>div{
+ 		float: left;
+ 		width: 268px;
+	    height: 40px;
+	    border-left: 1px solid #eaeaea;
+	    border-right: 1px solid #eaeaea;
+	    border-bottom: 1px solid #eaeaea;
+	    padding-left: 20px;
+	    line-height: 40px;
+ 	}
+ 	.item span{
+ 		position: relative;
+ 		display: block;
+ 		width: 290px;
+ 	}
+ 	.item span:hover .filter{
+		display: block;
+ 	}
+ 	.item span:hover .collection{
+		display: block;
+ 	}
+ 	.item span a:first-child{	
+ 		display: block;
+	    cursor: pointer;
+ 	}
+ 	.item span img{
+ 		width: 290px;
+ 	}	
+	.filter,.collection{
+		position: absolute;
+	    /*display: block;*/
+	    bottom: 0;
+	    z-index: 133;
+	    height: 34px; 
+	    line-height: 34px;
+	    display: none;
+	   /* width: 200px;*/
+	}
+	.filter{ 
+		padding: 0 12px;
+	    color: #fff;
+	    text-align: left;
+	    background: #000;
+	    opacity: .6;
+	    left: 0;
+	    z-index: 133;
+	}
+	.collection{
+		width: 200px;
+	    right: 0;
+	    color: #fff;
+	    z-index: 134;
+	    line-height: 34px;
+	    text-align: center;
+	    background-color: rgba(232,112,39,.9);
+	}
+	.item:after{
+		content: '';
+ 		display: block;
+ 		clear: both;
+ 		height: 0;
+ 		visibility: hidden;
+	}
+	.bottom{width: 100%;text-align: center;margin-top:30px;}
+ 	.bottom>ul{
+ 		display: inline-block;
+ 	}
+ 	.bottom>ul>li{float: left;margin-right: 65px;}
+ 	.bottom>ul>li>a:hover{color: orange;text-decoration: none;}

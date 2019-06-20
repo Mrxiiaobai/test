@@ -1,0 +1,153 @@
+	.content{
+ 		background: #f7f7f7;
+ 	}
+ 	.header{
+ 		height:40px;
+ 		background: #f9f9f9;	
+ 		line-height: 40px;
+ 	}
+ 	.hl ul{
+ 		padding-left: 350px;
+ 	}
+ 	.hl ul li{
+ 		float:left;
+ 		margin-right:10px;
+ 	}
+ 	.hl ul li a{
+ 		color:orange;
+ 	}
+ 	.hl ul li a:hover{
+ 		text-decoration: none;
+ 	}
+ 	.hr ul{
+ 		padding-right: 350px;
+ 	}
+ 	.hr ul li{
+ 		float:right;
+ 		margin-right: 5px;
+ 	}
+ 	.hr ul li a:hover{
+ 		text-decoration: none;
+ 	}
+ 	.main{
+ 		height: 100px;
+ 		border-bottom:1px solid #ccc;
+ 		background: white;
+ 	}
+ 	 .main img{
+ 		float:left;
+ 		padding-left:350px;
+ 		padding-top: 15px;
+ 	}
+ 	.mr ul{
+ 		padding-right: 350px;
+ 		padding-top: 25px;
+ 	}
+ 	.mr ul li{
+ 		display:block;
+ 		width:130px;
+ 		height:50px;
+ 		float:right;
+ 		font-size: 25px;
+ 		text-align:center;
+ 		position: relative;
+ 	}
+ 	.mr ul li a{
+		display:block;
+ 		line-height: 50px;
+ 	}
+ 	.mr ul li a:hover{
+ 		background: orange;
+ 		display: block;
+ 		width: 130px;
+ 		height: 50px;
+ 		border-radius: 15px;
+ 		text-decoration: none;
+ 	}
+ 	.bottom{
+	 	width: 100%;
+	 	text-align: center;
+	 	margin-top:20px;
+	 }
+ 	.bottom>ul{
+ 		display: inline-block;
+ 	}
+ 	.bottom>ul>li{float: left;margin-right: 65px;}
+ 	.bottom>ul>li>a:hover{color: orange;text-decoration: none;}
+ 	.company{
+ 		margin-top:20px;
+ 		margin-left:10%;
+ 		width:80%;
+ 		height:auto;
+ 		
+ 	}
+ 	.company h1{
+ 		font-size:40px;
+ 		text-align:center;
+ 	}
+ 	.company h2{
+ 		font-size:20px;	
+ 	}
+ 	.company p{
+ 		font-size:16px;
+ 		margin-top:10px;
+ 	}
+ 	
+ 	.fl{
+ 		float:left;
+ 		width:400px;
+ 		height:350px;
+ 		background:#ccc;
+ 	}
+ 	.fl img{
+ 		width:400px;
+ 		height:350px;
+ 	}
+ 	.fr{
+ 		width:500px;
+ 		margin-left:40px;
+ 		float:left;
+ 	}
+ 	
+ 	.cont{
+ 		position:relative;
+ 		width:100%;
+ 		background:white;
+ 		
+ 		padding:40px 20px 50px 40px;
+ 	}
+ 	.cont:after{
+ 		content: "";
+   		display: block;
+  	 	height: 0;
+   		clear: both;
+   		visibility: hidden;
+ 	}
+ 	.ff{
+ 		position:relative;
+ 		width:100%;
+		margin-top:30px;
+		background:white;
+		padding:20px 20px 50px 40px;
+		
+ 	}
+ 	.speacil{
+ 		position:relative;
+ 		width:100%;
+		margin-top:30px;
+		background:white;
+		padding:20px 20px 50px 40px;
+ 	}
+ 	.speacil h2{
+ 		position:absolute;
+ 		top:10px;
+ 		left:40px;
+ 	}
+ 	.speacil span{
+ 		display:inline-block;
+ 		width:200px;
+ 		margin-top:20px;
+ 		margin-right:20px;
+ 		font-size:16px;
+ 		line-height:22px;
+ 	}

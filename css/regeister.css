@@ -1,0 +1,50 @@
+.header{height: 100px;width: 100%;}
+    .headleft{
+        width: 50%;height:100px;position: absolute;
+    }
+    .headright{
+        width: 50%;float: right;
+    }
+    .main{width: 100%;background: url(../images/register_02.jpg);background-size:100%;background-repeat:no-repeat;}
+    .ml{
+        width:1062px;
+        height: 602px;
+        margin:auto;
+    }
+    .mll{
+        display: block;
+        width: 700px;
+        height: 602px;
+        padding: 75px 0 0 90px;
+    }
+    .mll input{margin-top: 20px;width: 300px;height: 25px;padding-left: 10px;color: black;}
+    .mll input::placeholder{color:#666;}
+    .mll select{padding-left:10px;color:#666;}
+   .selectCity{
+		display:block;width: 135px;height: 25px;position:absolute;top:0px;left:178px;margin-top:20px;
+	}
+	#citySpan{
+	position:absolute;top:25px;left:328px;}
+	.cityP{
+	position:relative;}
+	.hideCity{
+		display:none;
+	}
+    .p{position:relative;}
+    .mll span{font-size:10px;color: #666; }
+    #randomNumber{
+    	position:absolute;
+    	line-height:44px;
+    	bottom:0;
+    	left:105px;
+    	font-size:20px;
+    	color:red;
+    	display:none;
+    }
+   
+    .bottom{width: 100%;text-align: center;margin-top: 10px;}
+    .bottom>ul{
+        display: inline-block;
+    }
+    .bottom>ul>li{float: left;margin-right: 65px;}
+    .bottom>ul>li>a:hover{color: orange;text-decoration: none;}
